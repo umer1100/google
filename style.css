@@ -1,0 +1,128 @@
+
+.google
+{
+    padding-top: 5%;
+    padding-left: 40%;
+    size: auto;
+}
+.text_pakistan
+{
+    padding-bottom: 100px;
+}
+footer  {
+    
+    bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+    
+  }
+  
+  footer ul li {
+    display: inline;
+    color: #666666;
+    font-size: 14px;
+    padding: 13px;
+  }
+  
+  footer ul {
+    float: left;
+    padding: 1px;
+  }
+  
+  footer ul a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-right {
+    float: right;
+  }
+  
+.has-search .form-control 
+{
+    
+    width: 40%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 17px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 5px 20px 12px 40px;
+    border-radius : 20px;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    height: 38px;
+}
+.button1_position
+{
+    float: right;
+}
+button:hover
+{
+    border: gray;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px gainsboro;
+}
+.form-control:hover
+{
+    box-shadow: 5px 5px 5px gainsboro;
+}
+
+
+@media screen and (max-width: 400px) {
+    footer {
+        bottom: 0;
+      }
+       
+      footer ul {
+        float: none;
+        padding-bottom: 2px;
+         
+      }
+       
+      .footer-left {
+        text-align: center;
+        margin: auto; 
+        padding-top: 10px;
+         
+      }
+       
+      .footer-right {
+        float: none;
+        text-align: center;
+        
+      }
+
+}
+@media screen and (max-width: 565px) {
+    footer {
+        /*    bottom: 0;
+           postion: absolute; */
+           position:absolute;
+           bottom:0;
+           width:100%;
+           height:60px;
+         }
+          
+         footer ul {
+           float: none;
+           padding-bottom: 2px;
+            
+         }
+          
+         .footer-left {
+           text-align: center;
+           margin: auto; 
+           padding-top: 10px;
+            
+         }
+          
+         .footer-right {
+           float: none;
+           text-align: center;
+           
+         }
+}
